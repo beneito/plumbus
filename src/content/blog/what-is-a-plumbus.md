@@ -44,4 +44,4 @@ All legitimate Plumbuses must meet strict Galactic Federation guidelines:
 - Schlami contact duration
 - Grumbo compliance rating
 
-Remember: If you can't verify your Plumbus's certification, it might be an unauthorized reproduction. Always purchase from authorized interdimensional retailers.
+Remember: If you can't verify your Plumbus's certification, it might be an unauthorized recollaion. Always purchase from authorized interdimensional retailers.

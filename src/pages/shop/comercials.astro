@@ -1,16 +1,16 @@
 ---
 import BaseHead from '../../components/BaseHead.astro';
 import { SITE_TITLE } from '../../consts';
-import productData from '../../content/data/main.json';
+import collaData from '../../content/data/main.json';
 
-const { product } = productData;
+const { colla } = collaData;
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead 
-			title={`Buy ${product.name} | ${SITE_TITLE}`} 
+			title={`Buy ${colla.name} | ${SITE_TITLE}`} 
 			description="Purchase your very own Plumbus - Galactic Federation ID required"
 		/>
 		<style>

@@ -1,11 +1,11 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import productData from '../content/data/main.json';
+import collaData from '../content/data/main.json';
 import { getCollection } from 'astro:content';
 import FormattedDate from '../components/FormattedDate.astro';
 
-const { product, seo } = productData;
+const { colla, seo } = collaData;
 
 // Get blog posts
 const posts = (await getCollection('blog')).sort(
@@ -17,7 +17,7 @@ const hdImages = {
   portal1: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=95",
   portal2: "https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=2048&q=95",
   texture: "https://images.unsplash.com/photo-1579546929662-711aa81148cf?w=2048&q=95",
-  product: "https://cs8.pikabu.ru/post_img/big/2016/04/27/6/1461748084167073788.jpg"
+  colla: "https://cs8.pikabu.ru/post_img/big/2016/04/27/6/1461748084167073788.jpg"
 };
 ---
 
@@ -176,10 +176,10 @@ const hdImages = {
 				box-shadow: 
 					0 0 20px var(--glow),
 					0 0 40px var(--glow);
-				animation: productFloat 8s ease-in-out infinite;
+				animation: collaFloat 8s ease-in-out infinite;
 			}
 
-			@keyframes productFloat {
+			@keyframes collaFloat {
 				0%, 100% { transform: translateY(0) rotate(0deg); }
 				25% { transform: translateY(-10px) rotate(2deg); }
 				75% { transform: translateY(10px) rotate(-2deg); }
@@ -262,12 +262,12 @@ const hdImages = {
 				100% { transform: translateX(100%) rotate(45deg); }
 			}
 
-			.features, .testimonials, .specs {
+			.capos, .ganapiades, .specs {
 				width: 100%;
 				padding: 8rem 0;
 			}
 
-			.features {
+			.capos {
 				background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
 				clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
 				position: relative;
@@ -284,7 +284,7 @@ const hdImages = {
 				}
 			}
 
-			.features-grid {
+			.capos-grid {
 				display: grid;
 				grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 				gap: 3rem;
@@ -344,7 +344,7 @@ const hdImages = {
 				flex-grow: 1;
 			}
 
-			.testimonials {
+			.ganapiades {
 				background: var(--background);
 				position: relative;
 				&::before {
@@ -360,7 +360,7 @@ const hdImages = {
 				}
 			}
 
-			.testimonials-grid {
+			.ganapiades-grid {
 				display: grid;
 				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 				gap: 2rem;
@@ -607,7 +607,7 @@ const hdImages = {
 					max-width: 80%;
 				}
 
-				.features-grid, .testimonials-grid, .specs-grid {
+				.capos-grid, .ganapiades-grid, .specs-grid {
 					grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 					padding: 0 1rem;
 				}
@@ -635,11 +635,11 @@ const hdImages = {
 					font-size: 1.2rem;
 				}
 
-				.features, .testimonials, .specs {
+				.capos, .ganapiades, .specs {
 					padding: 4rem 0;
 				}
 
-				.features-grid, .testimonials-grid, .specs-grid {
+				.capos-grid, .ganapiades-grid, .specs-grid {
 					grid-template-columns: 1fr;
 				}
 
@@ -655,7 +655,7 @@ const hdImages = {
 			}
 
 			@media (min-width: 2000px) {
-				.features-grid, .testimonials-grid, .specs-grid {
+				.capos-grid, .ganapiades-grid, .specs-grid {
 					max-width: 2400px;
 					grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 				}
@@ -686,24 +686,24 @@ const hdImages = {
 			<section class="hero">
 				<div class="hero-content">
 					<div class="hero-text">
-						<h1>{product.name}</h1>
-						<p class="tagline">{product.tagline}</p>
-						<p class="description">{product.description}</p>
-						<a href={product.callToAction.url} class="cta-button">
-							{product.callToAction.text}
+						<h1>{colla.name}</h1>
+						<p class="tagline">{colla.tagline}</p>
+						<p class="description">{colla.description}</p>
+						<a href={colla.callToAction.url} class="cta-button">
+							{colla.callToAction.text}
 						</a>
 					</div>
 					<div class="hero-image">
-						<img src={hdImages.product} alt="The Plumbus - Everyone's favorite interdimensional household device" />
+						<img src={hdImages.colla} alt="The Plumbus - Everyone's favorite interdimensional household device" />
 					</div>
 				</div>
 			</section>
 
-			<section class="features">
+			<section class="capos">
 				<div class="container">
-					<h2>Interdimensional Features</h2>
-					<div class="features-grid">
-						{product.features.map((feature) => (
+					<h2>Secció de capos :)</h2>
+					<div class="capos-grid">
+						{colla.capos.map((feature) => (
 							<div class="feature-card">
 								<h3>{feature.title}</h3>
 								<p>{feature.description}</p>
@@ -713,11 +713,11 @@ const hdImages = {
 				</div>
 			</section>
 
-			<section class="testimonials">
+			<section class="ganapiades">
 				<div class="container">
-					<h2>Multiversal Reviews</h2>
-					<div class="testimonials-grid">
-						{product.testimonials.map((testimonial) => (
+					<h2>Secció de Ganapiades</h2>
+					<div class="ganapiades-grid">
+						{colla.ganapiades.map((testimonial) => (
 							<div class="testimonial-card">
 								<p class="testimonial-quote">"{testimonial.quote}"</p>
 								<div class="testimonial-name">- {testimonial.name}</div>
@@ -729,9 +729,9 @@ const hdImages = {
 
 			<section class="specs">
 				<div class="container">
-					<h2>Quantum Specifications</h2>
+					<h2>Millors castells de la colla</h2>
 					<div class="specs-grid">
-						{Object.entries(product.specs).map(([key, value]) => (
+						{Object.entries(colla.specs).map(([key, value]) => (
 							<div class="spec-item">
 								<div class="spec-label">{key}</div>
 								<div class="spec-value">{value}</div>
@@ -770,14 +770,14 @@ const hdImages = {
 			<footer>
 				<div class="container">
 					<div class="social-links">
-						{product.footer.socialLinks.map((link) => (
+						{colla.footer.socialLinks.map((link) => (
 							<a href={link.url} target="_blank" rel="noopener noreferrer">
 								{link.platform}
 							</a>
 						))}
 					</div>
-					<p class="disclaimer">{product.footer.legalDisclaimer}</p>
-					<p>Contact: <a href={`mailto:${product.footer.contactEmail}`}>{product.footer.contactEmail}</a></p>
+					<p class="disclaimer">{colla.footer.legalDisclaimer}</p>
+					<p>Contact: <a href={`mailto:${colla.footer.contactEmail}`}>{colla.footer.contactEmail}</a></p>
 				</div>
 			</footer>
 		</main>

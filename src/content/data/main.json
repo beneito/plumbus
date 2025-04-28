@@ -1,67 +1,67 @@
 {
-  "product": {
-    "name": "Plumbus",
-    "tagline": "Everybody Has One. Nobody Knows Why.",
-    "heroImage": "/images/plumbus-hero.jpg",
-    "video": {
-      "title": "How They Do It: Plumbus Edition",
-      "url": "https://www.youtube.com/watch?v=eMJk4y9NGvE"
-    },
-    "description": "A Plumbus is your one-stop solution for everything you didn't know you needed. From reheating existential dread to polishing your Schlammy, Plumbus does it all — usually without asking why.",
-    "features": [
+  "colla": {
+  "name": "Ganàpies de la UAB",
+  "tagline": "La colla castellera de la Universitat Autònoma de Barcelona",
+  "heroImage": "/Diada_Primavera_Ganàpies_2016_-_25969264934.jpg", 
+  "video": {
+    "title": "El nostre podcast EL POSTASSAIG",
+    "url": "https://www.youtube.com/watch?v=QYJOgiZtubs"
+  },
+    "description": "Fem castells i tal, i ens agrada fer-ho amb un bon ambient. Som una colla castellera de la Universitat Autònoma de Barcelona.",
+    "capos": [
       {
-        "title": "Organic Yet Alarmingly Slippery",
-        "description": "Grown, not manufactured. Feels like a wet idea covered in ambition."
+        "title": "Nuna",
+        "description": "Actual presi, hevi"
       },
       {
-        "title": "Built Using 100% Recycled Fleeb Residue",
-        "description": "Sustainably sourced from interdimensional leftovers. Tastes like regret. Don't eat it."
+        "title": "Lau",
+        "description": "També és presi, també hevi"
       },
       {
-        "title": "Compatible with Most Dimensions",
-        "description": "Now works in Dimensions C-137 through Z-19… and probably some cursed ones we don't talk about."
+        "title": "Fufu",
+        "description": "casi presi, quasi hevi"
       },
       {
-        "title": "Semi-Sentient Mood Sensor",
-        "description": "Changes color based on your mood. Turns purple if you lie to it."
+        "title": "Etna",
+        "description": "Cap de colla, personificació de l'Asterix"
       },
       {
-        "title": "Self-Rubbing Technology™",
-        "description": "No buttons, no interface — just rub it until it activates. Results vary."
+        "title": "Lis",
+        "description": "Sots cap de colla, mueve hilos en las sombras"
       },
       {
-        "title": "Chrono-Absorbent Core",
-        "description": "Accidentally absorbs small amounts of time. Do not leave near children or paradoxes."
+        "title": "Gomà",
+        "description": "persona més alta de la colla, hi ha qui diu que dorm de peu"
       }
     ],
     "callToAction": {
-      "text": "Buy One Before It Buys You!",
-      "url": "/shop/plumbus"
+      "text": "Contracta'ns per fer castells!",
+      "url": "/shop/comercials"
     },
-    "testimonials": [
+    "ganapiades": [
       {
-        "name": "Rick Sanchez",
-        "quote": "Honestly? Even *I* don't know how it works. That's how you know it's good."
+        "name": "Ganapia1",
+        "quote": "ganapiada1"
       },
       {
-        "name": "Stealy",
-        "quote": "I took one, then it took something from me. Fair trade, I guess."
+        "name": "Ganapia2",
+        "quote": "ganapiada2"
       },
       {
-        "name": "Summer Smith",
-        "quote": "It's weird, it's gross, it's kind of... elegant?"
+        "name": "Ganapia3",
+        "quote": "ganapiada3"
       },
       {
-        "name": "Blamph Worker #442",
-        "quote": "I rub the Fleeb until the Dinglebop is juiced. Standard procedure."
+        "name": "Ganapia4",
+        "quote": "ganapiada4"
       }
     ],
     "specs": {
-      "Origin": "Hand-raised on Plumbubo Prime 51b",
-      "Material": "Mostly ethical Grodus, hypoallergenic Schlami membrane",
-      "Maintenance": "Rub regularly. Whisper compliments. Avoid eye contact.",
-      "Dimensions": "Relative to your shame",
-      "Weight": "Feels heavier when you're being watched"
+      "Pilar": "de 6 amb folre, eslia parda",
+      "Torre": "de 7 folrada, eslia pardissima",
+      "Tres": "De 8 amb folre, oooooooooh Deu méu!",
+      "Ganapiada honorífica 1": "7d7 margarita",
+      "Ganapiada honorífica 2": "10d6 tsunami"
     },
     "faq": [
       {
@@ -96,31 +96,31 @@
     }
   },
   "seo": {
-    "title": "Buy Your Very Own Plumbus – The Universal Household Essential | Rick and Morty Universe",
-    "description": "Everyone has a Plumbus, but no one knows why. Discover the only all-purpose device approved across dimensions. Grown, not manufactured. 100% confusing. Get yours today!",
+    "title": "Ganàpies - La colla castellera de la UAB",
+    "description": "Cultura catalana, castells i tradicions. Som la colla castellera de la Universitat Autònoma de Barcelona.",
     "keywords": [
-      "Plumbus",
-      "Rick and Morty",
-      "Buy Plumbus",
-      "Plumbus for sale",
-      "Interdimensional appliances",
-      "Fleeb juice",
-      "How They Do It",
-      "Schlami membrane",
-      "Grodus",
-      "Weird gadgets",
-      "Universal tool",
-      "Alien household device",
-      "Dinglebop cleaner"
+      "Castells",
+      "Castellers",
+      "Universitat Autònoma de Barcelona",
+      "UAB",
+      "Blau",
+      "Colla Castellera",
+      "Arreplegats",
+      "Ganàpies",
+      "Ganapies",
+      "Ganapias",
+      "Ganapies de la UAB",
+      "Actuació castellera",
+      "Contractar colla castellera"
     ],
-    "author": "Plumbus Marketing Collective 51b",
+    "author": "Benet Carbonell Fusté",
     "canonical": "https://plumbus.temaprint.com/shop",
     "robots": "index, follow",
     "language": "en-US",
     "openGraph": {
       "og:title": "Plumbus – The Interdimensional Device Everyone Needs",
       "og:description": "It's slimy, it's warm, it's confusing – and now it can be yours. Grown with love (and Fleeb) on Plumbubo Prime 51b.",
-      "og:type": "product",
+      "og:type": "colla",
       "og:url": "https://plumbus.temaprint.com/shop",
       "og:image": "https://plumbus.temaprint.com/assets/images/plumbus-og.jpg",
       "og:site_name": "Plumbus Official Shop"
@@ -135,7 +135,7 @@
     },
     "structuredData": {
       "@context": "https://schema.org",
-      "@type": "Product",
+      "@type": "colla",
       "name": "Plumbus",
       "image": "https://plumbus.temaprint.com/assets/images/plumbus-og.jpg",
       "description": "A mysterious, all-purpose organic device seen across the Rick and Morty universe. Used for cleaning, cooking, broadcasting and unknown functions.",

@@ -85,7 +85,7 @@ npm run dev
 
 The site content is managed through `src/content/data/main.json`. You can easily modify:
 
-- Product details and specifications
+- colla details and specifications
 - Features and benefits
 - Customer testimonials
 - SEO metadata and social links
