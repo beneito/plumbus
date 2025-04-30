@@ -65,7 +65,7 @@
     },
     "faq": [
       {
-        "question": "Is the Plumbus alive?",
+        "pregunta1": "Is the Plumbus alive?",
         "answer": "Legally, no. Emotionally, maybe."
       },
       {
@@ -86,13 +86,13 @@
       }
     ],
     "footer": {
-      "legalDisclaimer": "Plumbus is not responsible for unintended consequences, spontaneous combustion, or accidental enlightenment. Use responsibly.",
+      "legalDisclaimer": "Legal Disclaimer: Des de ganàpies, ens fem responsables per tot lo bé que t'ho hagis arribat a passar en el món casteller universitari. (som la degana)",
       "socialLinks": [
-        { "platform": "Instagram", "url": "https://www.instagram.com/t_3_ma" },
-        { "platform": "Twitter", "url": "https://twitter.com/temaprint" },
-        { "platform": "Facebook", "url": "https://facebook.com/temaprint" }
+        { "platform": "Instagram", "url": "https://www.instagram.com/ganapies" },
+        { "platform": "Twitter", "url": "https://twitter.com/ganapies" },
+        { "platform": "Facebook", "url": "https://facebook.com/ganapies" }
       ],
-      "contactEmail": "netemtem@gmail.com"
+      "contactEmail": "ganapies@gmail.com"
     }
   },
   "seo": {
